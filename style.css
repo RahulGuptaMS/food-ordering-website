@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial,sans-serif;
+
+}
+
+.navbar{
+    width: 100%;
+    min-height: 65%;
+    padding: 0.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-bottom: 3px solid #eeeeee;
+    gap: 20px;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    font-size: 17x;
+    font-weight: bold;
+    color: #333333;
+    letter-spacing: 1x;
+
+
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color: #ef6545;
+    font-size: 15px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: #444444;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+
+}
+
+.links a.active{
+    color: #ef6545;
+
+
+
+}
+.links a:hover{
+    color: #ef6545;
+
+
+}
+
+.nav_icon{
+    display: flex;
+    align-items: center;
+    gap:1px;
+}
+
+.nav_icon a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cart{
+     background-color: #f15a35;
+     width: 28px;
+     height:28px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.profile{
+    background-color: #a0a782;
+    width:28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    min-height: 610px;
+    background-color: #f45125;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+/* Hero Content */
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Main Heading */
+.hero h1 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.hero-description {
+    color: #ffe0d5;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* Search Form */
+.search-box {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/* Search Input */
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+/* Search Button */
+.search-box button {
+    background-color: #f45125;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 22px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+/* Button Hover */
+.search-box button:hover {
+    background-color: #d93d18;
+}
+
+
+
+/* Food Categories Section */
+.food-categories {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Individual Food Card */
+.food-card {
+    width: 150px;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+/* Food Image */
+.food-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Food Name */
+.food-card h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    margin: 0;
+}
